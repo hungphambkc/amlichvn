@@ -1,6 +1,6 @@
 jQuery.AmLich (Âm lịch Việt Nam)
 ======
-**jQuery.AmLich** là một jQuery plugin được viết lại dựa trên mã nguồn của Hồ Ngọc Đức ([http://www.informatik.uni-leipzig.de/~duc/amlich/](http://www.informatik.uni-leipzig.de/~duc/amlich/)). Cách sử dụng:
+**jQuery.AmLich** là một jQuery plugin được viết lại dựa trên mã nguồn của Hồ Ngọc Đức. Cách sử dụng:
 
 ```javascript
 $(element).amLich({
