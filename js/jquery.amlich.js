@@ -1,5 +1,5 @@
 /**
- * jQuery.AmLich v0.3.1
+ * jQuery.AmLich v0.1
  *
  * Copyright 2004 Ho Ngoc Duc [http://come.to/duc]. All Rights Reserved.
  * Permission to use, copy, modify, and redistribute this software and its
