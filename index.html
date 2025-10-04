@@ -1,23 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
   <meta charset="utf-8">
-  <title>AmLich - Calendar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Âm Lịch - Calendar</title>
   <link rel="stylesheet" href="css/jquery.amlich.css">
 </head>
 
 <body>
+  <div id="amlich-calendar" role="application" aria-label="Âm Lịch Việt Nam"></div>
 
-  <div id="amlich-calendar" style="width:400px; margin: 0 auto;"></div>
-
-  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.7.1.min.map"></script>
-  <script src="https://code.jquery.com/jquery-migrate-3.5.2.js"></script>
-  <script src="https://code.jquery.com/jquery-migrate-3.5.2.min.js"></script>
-  <script src="js/jquery.amlich.min.js"></script>
-  <script type="text/javascript">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+  <script src="https://code.jquery.com/jquery-migrate-3.5.2.min.js" defer></script>
+  <script src="js/jquery.amlich.min.js" defer></script>
+  <script defer>
     $(function () {
       $('#amlich-calendar').amLich({
         type: 'calendar',
